@@ -16,19 +16,20 @@
 
 package com.example.android.guesstheword.screens.game
 
+import android.app.Fragment
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
-import androidx.fragment.app.Fragment
 import com.example.android.guesstheword.R
 import com.example.android.guesstheword.databinding.GameFragmentBinding
 
 /**
  * Fragment where the game is played
  */
-class GameFragment : Fragment() {
+private lateinit var viewModel: GameViewModel
+class GameFragment : androidx.fragment.app.Fragment() {
 
     // The current word
     private var word = ""
