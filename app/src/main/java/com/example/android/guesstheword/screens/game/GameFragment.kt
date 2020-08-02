@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-@file:Suppress("DEPRECATION")
+//@file:Suppress("DEPRECATION")
 
 package com.example.android.guesstheword.screens.game
 
@@ -68,23 +68,26 @@ class GameFragment : Fragment() {
     /** Methods for button click handlers **/
 
     private fun onSkip() {
-        score--
-        nextWord()
+        viewModel.onSkip()
+        updateWordText()
+        updateScoreText()
     }
 
     private fun onCorrect() {
-        score++
-        nextWord()
+        viewModel.onCorrect()
+        updateScoreText()
+        updateWordText()
+    }
     }
 
 
     /** Methods for updating the UI **/
 
     private fun updateWordText() {
-        binding.wordText.text = word
+        binding.wordText.text = viewModel.word
     }
 
     private fun updateScoreText() {
-        binding.scoreText.text = score.toString()
-    }
+        binding.scoreText.text = viewModel.score.toString()
 }
+
