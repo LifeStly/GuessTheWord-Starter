@@ -9,7 +9,11 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a6157e2-96d2-4899-ad7f-2517a71954ce" name="Default Changelist" comment="" />
+    <list default="true" id="0a6157e2-96d2-4899-ad7f-2517a71954ce" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -134,9 +138,9 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="460" y="118" key="FileChooserDialogImpl/0.0.1360.728@0.0.1360.728" timestamp="1595997584224" />
-    <state x="376" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1595997486508">
+    <state x="376" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1596365562591">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="376" y="187" key="com.intellij.ide.util.TipDialog/0.0.1360.728@0.0.1360.728" timestamp="1595997486508" />
+    <state x="376" y="187" key="com.intellij.ide.util.TipDialog/0.0.1360.728@0.0.1360.728" timestamp="1596365562591" />
   </component>
 </project>
